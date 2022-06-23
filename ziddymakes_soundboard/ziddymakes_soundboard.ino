@@ -53,11 +53,25 @@ void loop() {
     delay(500);
   } else if (button3 == LOW) {
     Serial.println("boop 3");
-    //player.play(2);
     playTrack(2);
     delay(500);
+  } else if (button4 == LOW) {
+    Serial.println("boop 4");
+    playTrack(3);
+    delay(500);
+  } else if (button5 == LOW) {
+    Serial.println("boop 5");
+    playTrack(4);
+    delay(500);
+  } else if (button6 == LOW) {
+    Serial.println("boop 6");
+    playTrack(5);
+    delay(500);
+  } else if (button7 == LOW) {
+    Serial.println("boop 7");
+    playTrack(6);
+    delay(500);
   }  
-  
 }
 
 
